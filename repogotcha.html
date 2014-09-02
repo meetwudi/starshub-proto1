@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flat UI Pro 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI Pro -->
+    <link href="css/flat-ui-pro.css" rel="stylesheet">
+    <link rel="stylesheet" href="repogotcha.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="container-fluid main-grid">
+      <div class="row">
+        <main class="col-xs-10">
+          <div class="main-wrap">
+            <div class="main-heading clearfix">
+              <header>
+                <h5>Gotcha</h5>
+              </header>
+              <div class="search-wrap">
+                <div class="form-group">
+                  <div class="input-group input-group-hg">
+                    <input class="form-control" id="searchbox01" type="search" placeholder="Search">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button"><span class="fui-search"></span></button>
+                    </span>
+                  </div>
+                </div> <!-- form-group -->
+                <div class="typeahead-wrap">
+                  <ul>
+                    <li>By Tag | By RepoName | By Gotcha </li>
+                    <li><a href="#">Tag: golang-book</a></li>
+                    <li><a href="#">Tag: Golang</a></li>
+                    <li><a href="#">Repository: tjwudi/golang</a></li>
+                    <li><a href="#">Gotcha: best way to ...</a></li>
+                  </ul>
+                </div>
+              </div> <!-- search wrap -->
+            </div> <!-- main-heading -->
+
+            <ul class="nav nav-pills repoinfo-headnav">
+              <li><a href="repoinfo.html">Info</a></li>
+              <li class="active"><a href="#">Gotcha</a></li>
+            </ul> <!--pills-->
+
+            
+            <div class="gotcha-heading">
+              <div class="form-group gotcha-search">
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="appendedInputButton-04" type="search" placeholder="Search gotcha">
+                  <span class="input-group-btn">
+                    <button class="btn" type="button"><span class="fui-search"></span></button>
+                  </span>
+                </div>
+              </div>
+              <a class="btn btn-sm btn-primary gotcha-create" href="repocreategotcha.html">Create new gotcha</a>
+            </div>
+
+            <section class="gotcha gotcha--my">
+              <header class="clearfix">
+                <h6>How to fix ...</h6>
+                <div class="actions">
+                  <a href="#">9 voteup</a>
+                  &nbsp;
+                  <a href="repocreategotcha.html" class="edit">Edit</a>
+                  &nbsp;
+                  <a href="#" class="fork">Fork</a>
+                </div>
+              </header>
+              
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore possimus sint, facilis illo ab, optio modi non eligendi deserunt quod ullam quisquam. Inventore officiis vero, veritatis dolore, cumque consectetur id.</p>
+
+              <footer>
+                <em class="forked-from">forked from <a href="#">somebody</a></em>
+              </footer>
+            </section> <!-- gotcha -->
+
+
+            <section class="gotcha gotcha--fork">
+              <header class="clearfix">
+                <h6>How to fix ...</h6>
+                <div class="actions">
+                  <a href="#">9 voteup</a>
+                  &nbsp;
+                  <a href="repocreategotcha.html" class="edit">Edit</a>
+                  &nbsp;
+                  <a href="#" class="fork">Fork</a>
+                </div>
+              </header>
+              
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore possimus sint, facilis illo ab, optio modi non eligendi deserunt quod ullam quisquam. Inventore officiis vero, veritatis dolore, cumque consectetur id.</p>
+
+              <footer>
+                <em class="forked-from">forked from <a href="#">somebody</a></em>
+                <em class="origin">by <a href="#">somebody</a></em>
+              </footer>
+            </section> <!-- gotcha (fork) -->
+
+            <section class="gotcha gotcha--others">
+              <header class="clearfix">
+                <h6>How to fix ...</h6>
+                <div class="actions">
+                  <a href="#">9 voteup</a>
+                  &nbsp;
+                  <a href="repocreategotcha.html" class="edit">Edit</a>
+                  &nbsp;
+                  <a href="#" class="fork">Fork</a>
+                </div>
+              </header>
+              
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore possimus sint, facilis illo ab, optio modi non eligendi deserunt quod ullam quisquam. Inventore officiis vero, veritatis dolore, cumque consectetur id.</p>
+
+              <footer>
+                <em class="forked-from">forked from <a href="#">somebody</a></em>
+                <em class="origin">by <a href="#">somebody</a></em>
+              </footer>
+            </section> <!-- gotcha (others) -->
+
+            <ul class="pagination-plain">
+              <li class="previous">
+                <a href="#">Previous</a>
+              </li>
+              <li>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+              </li>
+              <li class="next">
+                <a href="#">Newer</a>
+              </li>
+            </ul> <!--pagination -->
+
+          </div>
+        </main>
+        <aside class="col-xs-2 sidebar">
+          <div class="user-profile">
+            <div class="avatar-wrap">
+              <img src="http://placehold.it/60x60" alt="" class="avatar">
+            </div>
+            <div class="user-info">
+              <div class="user-name">tjwudi</div>
+              <div class="user-stats">101 starred | 87 gotchas</div>
+              <div class="user-stats"><a href="http://github.com/tjwudi">GitHub</a></div>
+            </div>
+          </div>
+          <nav class="main-nav">
+            <li><a href="userindex.html">Home</a></li>
+            <li><a href="setting.html">Settings</a></li>
+            <li><a href="#">Sign Out</a></li>
+          </nav>
+          <div class="bottom-wrap">
+            <a href="#">FeedBack</a>
+            <img src="http://placehold.it/180x100" alt="" class="logo" alt="site logo">
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/flat-ui-pro.min.js"></script>
+
+    <script>
+      $(function() {
+        $('#searchbox01').bind('focus', function() {
+          $('.typeahead-wrap').addClass('visible');
+        });
+        $('#searchbox01').bind('blur', function() {
+          $('.typeahead-wrap').removeClass('visible');
+        });
+        $('#tagsinput-edit').bind('click', function(e) {
+          e.preventDefault();
+          $('.tagsinput-primary').toggleClass('visible');
+          $('.tagsinput-currenttags').toggleClass('visible');
+        });
+      })
+    </script>
+  </body>
+</html>
