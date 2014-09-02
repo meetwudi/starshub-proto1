@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flat UI Pro 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI Pro -->
+    <link href="css/flat-ui-pro.css" rel="stylesheet">
+    <link rel="stylesheet" href="searchresult.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="container-fluid main-grid">
+      <div class="row">
+        <main class="col-xs-10">
+          <div class="main-wrap">
+            <div class="main-heading clearfix">
+              <header>
+                <h5>Your stars</h5>
+              </header>
+              <div class="search-wrap">
+                <div class="form-group">
+                  <div class="input-group input-group-hg">
+                    <input class="form-control" id="appendedInputButton-01" type="search" placeholder="Search">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button"><span class="fui-search"></span></button>
+                    </span>
+                  </div>
+                </div>
+              </div> <!-- search wrap -->
+            </div> <!-- main-heading -->
+
+
+            <ul class="nav nav-pills">
+              <li class="active"><a href="#fakelink">Tag</a></li>
+              <li><a href="#fakelink">RepoName</a></li>
+              <li><a href="#fakelink">Gotcha</a></li>
+            </ul>
+
+
+            <div class="starlist">
+              <div class="star">
+                <section class="left">
+                  <img src="http://placehold.it/40x40" alt="">
+                </section>
+                <section class="right">
+                  <div class="clearfix">
+                    <div class="reponame">
+                      <a href="#">tjwudi/awesome</a>
+                    </div>
+                    <div class="link-to-github"><a href="#">Github</a></div>
+                  </div> <!-- row -->
+                  <div class="clearfix">
+                    Introduction .. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  </div>
+                  <div class="clearfix">
+                    <div class="stats"><a href="#">12 starred</a> | <a href="#">202 gotchas</a></div>
+                    <div class="tag-wrap">
+                      <button class="btn btn-xs">project101</button>
+                      <button class="btn btn-xs btn-primary">books</button>
+                      <button class="btn btn-xs">articles</button>
+                      <button class="btn btn-xs">algorithm</button>
+                    </div>
+                  </div>
+                </section>
+              </div> <!-- star -->
+            </div> <!-- starlist -->
+
+            <ul class="pagination-plain">
+              <li class="previous">
+                <a href="#">Previous</a>
+              </li>
+              <li>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+              </li>
+              <li class="next">
+                <a href="#">Newer</a>
+              </li>
+            </ul> <!--pagination -->
+          </div>
+        </main>
+        <aside class="col-xs-2 sidebar">
+          <div class="user-profile">
+            <div class="avatar-wrap">
+              <img src="http://placehold.it/60x60" alt="" class="avatar">
+            </div>
+            <div class="user-info">
+              <div class="user-name">tjwudi</div>
+              <div class="user-stats">101 starred | 87 gotchas</div>
+              <div class="user-stats"><a href="http://github.com/tjwudi">GitHub</a></div>
+            </div>
+          </div>
+          <nav class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Item2</a></li>
+            <li><a href="#">Item3</a></li>
+          </nav>
+          <div class="bottom-wrap">
+            <a href="#">FeedBack</a>
+            <img src="http://placehold.it/180x100" alt="" class="logo" alt="site logo">
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/flat-ui-pro.min.js"></script>
+
+    <script>
+      $(function() {
+        var star = $('.star');
+        var i;
+        for (i = 0; i < 10; i ++) {
+          $('.starlist').append(star.clone());
+        }
+      })
+    </script>
+  </body>
+</html>

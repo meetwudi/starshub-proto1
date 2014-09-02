@@ -1,0 +1,36 @@
+@import "common.less";
+
+
+.typeahead-wrap {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  border: 1px solid #ccc;
+  background-color: white;
+  &>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  display: none;
+  &.visible {
+    display: block;
+  }
+}
+
+
+.repoinfo-headnav {
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #e8e8e8;
+  margin-bottom: 20px;
+}
+
+.tagsinput-wrap {
+  .clearfix;
+  .tagsinput-primary, .tagsinput-currenttags {
+    display: none;
+    width: 600px;
+    float: left;
+    &.visible {display:block;}
+  }
+}

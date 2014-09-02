@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flat UI Pro 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI Pro -->
+    <link href="css/flat-ui-pro.css" rel="stylesheet">
+    <link rel="stylesheet" href="repoinfo.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="container-fluid main-grid">
+      <div class="row">
+        <main class="col-xs-10">
+          <div class="main-wrap">
+            <div class="main-heading clearfix">
+              <header>
+                <h5>Your stars</h5>
+              </header>
+              <div class="search-wrap">
+                <div class="form-group">
+                  <div class="input-group input-group-hg">
+                    <input class="form-control" id="searchbox01" type="search" placeholder="Search">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button"><span class="fui-search"></span></button>
+                    </span>
+                  </div>
+                </div> <!-- form-group -->
+                <div class="typeahead-wrap">
+                  <ul>
+                    <li>By Tag | By RepoName | By Gotcha </li>
+                    <li><a href="#">Tag: golang-book</a></li>
+                    <li><a href="#">Tag: Golang</a></li>
+                    <li><a href="#">Repository: tjwudi/golang</a></li>
+                    <li><a href="#">Gotcha: best way to ...</a></li>
+                  </ul>
+                </div>
+              </div> <!-- search wrap -->
+            </div> <!-- main-heading -->
+
+            <ul class="nav nav-pills repoinfo-headnav">
+              <li class="active"><a href="#fakelink">Info</a></li>
+              <li><a href="#fakelink">Gotcha</a></li>
+            </ul> <!--pills-->
+
+            <div class="tagsinput-wrap">
+              <div class="tagsinput-primary">
+                <input name="tagsinput" class="tagsinput" value="School, Teacher, Colleague" data-role="tagsinput"/>
+              </div>
+              <div class="tagsinput-currenttags visible">
+                <button class="btn btn-xs">School</button>
+                <button class="btn btn-xs">Teacher</button>
+                <button class="btn btn-xs">Colleague</button>
+              </div>
+              <a href="#" id="tagsinput-edit">Edit</a>
+            </div> <!-- tagsinput-wrap -->
+
+
+            <div class="readme">
+              <h2>README</h2>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor in, reprehenderit! Provident similique explicabo error dolorem recusandae, architecto non, illo doloremque quae et, nihil amet molestias, porro tempora! Aliquam, voluptatem?</div>
+              <div>Autem quas labore, delectus ea laudantium nostrum, necessitatibus officiis eius rem omnis ratione placeat porro eaque molestias similique eum non nisi quo earum magnam. Aperiam porro soluta mollitia corrupti repudiandae!</div>
+              <div>Repellendus hic minima eos asperiores blanditiis. Obcaecati dolor voluptas blanditiis, ratione error aliquam porro repellat quam fugit maxime saepe accusamus veniam. Minima, ab. Numquam aperiam quaerat, dolorem temporibus quibusdam quod.</div>
+              <div>Expedita pariatur iusto id quo vero magnam, quos, tempora ipsam saepe distinctio ducimus quaerat officiis, ratione, qui dolorum eos beatae accusantium molestiae soluta eum! Ratione commodi accusantium iste quibusdam rerum.</div>
+              <div>Voluptas vero inventore officiis similique distinctio unde fugiat quas corporis necessitatibus reprehenderit at enim quis amet delectus ab nobis, aspernatur aperiam eius accusamus ratione est quisquam eos. Quisquam, sed repudiandae?</div>
+              <div>Inventore pariatur magni quis dolorem, eligendi totam saepe porro dicta ipsam repellendus excepturi reprehenderit, sequi voluptatum adipisci repellat suscipit optio quisquam expedita atque aliquam? Consequatur excepturi doloribus perferendis odit eveniet.</div>
+              <div>Placeat eos at ipsa voluptate fuga quaerat sed ipsum modi excepturi aliquid dolorum consequuntur, quas cumque incidunt maxime optio quam, fugiat harum, nemo ratione eveniet earum natus quasi sapiente! Ipsa!</div>
+              <div>Quia sint neque sed non reiciendis facere, corporis tempore omnis iusto, delectus ipsa. Reiciendis aspernatur ut magnam. Commodi laudantium, vitae enim id est vel rerum veniam accusamus laborum perspiciatis quia.</div>
+              <div>Illo rerum iste ratione nostrum veniam assumenda atque dicta facilis vero! Doloremque tempora, aut optio facere commodi fugit necessitatibus odit ex nostrum id voluptatibus repellat hic reiciendis nobis animi possimus!</div>
+              <div>Unde minus, doloremque neque rerum dolorem voluptas! Sed culpa voluptate voluptas ullam veritatis in eos provident, commodi fugiat quod rerum ea soluta illo aliquid, doloribus molestias nesciunt amet nemo quos.</div>
+            </div>
+
+          </div>
+        </main>
+        <aside class="col-xs-2 sidebar">
+          <div class="user-profile">
+            <div class="avatar-wrap">
+              <img src="http://placehold.it/60x60" alt="" class="avatar">
+            </div>
+            <div class="user-info">
+              <div class="user-name">tjwudi</div>
+              <div class="user-stats">101 starred | 87 gotchas</div>
+              <div class="user-stats"><a href="http://github.com/tjwudi">GitHub</a></div>
+            </div>
+          </div>
+          <nav class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Item2</a></li>
+            <li><a href="#">Item3</a></li>
+          </nav>
+          <div class="bottom-wrap">
+            <a href="#">FeedBack</a>
+            <img src="http://placehold.it/180x100" alt="" class="logo" alt="site logo">
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/flat-ui-pro.min.js"></script>
+
+    <script>
+      $(function() {
+        $('#searchbox01').bind('focus', function() {
+          $('.typeahead-wrap').addClass('visible');
+        });
+        $('#searchbox01').bind('blur', function() {
+          $('.typeahead-wrap').removeClass('visible');
+        });
+        $('#tagsinput-edit').bind('click', function(e) {
+          e.preventDefault();
+          $('.tagsinput-primary').toggleClass('visible');
+          $('.tagsinput-currenttags').toggleClass('visible');
+        });
+      })
+    </script>
+  </body>
+</html>

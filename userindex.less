@@ -1,0 +1,54 @@
+@import "common.less";
+
+
+.typeahead-wrap {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  border: 1px solid #ccc;
+  background-color: white;
+  &>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  display: none;
+  &.visible {
+    display: block;
+  }
+}
+
+.star {
+  margin-top: 1.5rem;
+  .clearfix;
+
+  .left {
+    float: left;
+  }
+  .right {
+    overflow: auto;
+  }
+  .reponame {
+    font-size: 1.8rem;
+    float: left;
+  }
+
+  .link-to-github {
+    float: left;
+    font-size: 1.2rem;
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+
+  .stats {
+    float: left;
+  }
+
+  .tag-wrap {
+    overflow: auto;
+    padding-left: 20px; 
+    float: right;
+  }
+}
+
